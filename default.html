@@ -46,10 +46,22 @@
                             <p>
                                 The default grid system is 12 columns but we added some padding/margin to the main container which really makes this 
                                 for us an 8 column layout. Shouldn't be a big deal.
-                            </p>       
-
-                            <h4>8 column layout</h4>
+                            </p>  
+                            
+                            <h4>8 column layout fixed</h4>
                             <div class="row">
+                                <div class="span1" style="background-color: #808080">col1</div>
+                                <div class="span1" style="background-color: #808080">col2</div>
+                                <div class="span1" style="background-color: #808080">col3</div>
+                                <div class="span1" style="background-color: #808080">col4</div>
+                                <div class="span1" style="background-color: #808080">col5</div>
+                                <div class="span1" style="background-color: #808080">col6</div>
+                                <div class="span1" style="background-color: #808080">col7</div>
+                                <div class="span1" style="background-color: #808080">col8</div>
+                            </div>     
+
+                            <h4>9 column layout fluid</h4>
+                            <div class="row-fluid">
                                 <div class="span1" style="background-color: #808080">col1</div>
                                 <div class="span1" style="background-color: #808080">col2</div>
                                 <div class="span1" style="background-color: #808080">col3</div>
@@ -61,23 +73,22 @@
                                 <div class="span1" style="background-color: #808080">col9</div>                                                        
                             </div>
                             
-                            <h4>2 column layout</h4>
+                            <h4>2 column layout fixed</h4>
                             <div class="row">
                                 <div class="span4" style="background-color: #808080">col1</div>
                                 <div class="span4" style="background-color: #808080">col2</div>                                
                             </div>
-
-
-                            <h4>3 column layout</h4>
-                            <div class="row">
+                            
+                            <h4>3 column layout fluid</h4>
+                            <div class="row-fluid">
                                 <div class="span3" style="background-color: #808080">col1</div>
                                 <div class="span3" style="background-color: #808080">col2</div>                                
-                                <div class="span2" style="background-color: #808080">col3</div>                                
+                                <div class="span3" style="background-color: #808080">col3</div>                                
                             </div>
 
-                            <h4>4 column layout</h4>
-                            <div class="row">
-                                <div class="span2" style="background-color: #808080">col1</div>
+                            <h4>4 column layout fluid</h4>
+                            <div class="row-fluid">
+                                <div class="span2 offset1" style="background-color: #808080">col1 offset 1</div>
                                 <div class="span2" style="background-color: #808080">col2</div>                                
                                 <div class="span2" style="background-color: #808080">col3</div>                                
                                 <div class="span2" style="background-color: #808080">col4</div>                                
@@ -109,8 +120,70 @@
                             <h3>Heading 3</h3>
                             <h4>Heading 4</h4>
                             <h5>Heading 5</h5>
-                            <h6>Heading 6</h6>                
-                        </div>                        
+                            <h6>Heading 6</h6>
+
+                            <p>Lists examples</p>
+                            <ul>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3
+                                    <ul>
+                                        <li>Nested list item 1</li>
+                                        <li>Nested list item 2</li>
+                                        <li>Nested list item 3</li>
+                                    </ul>
+                                </li>
+                                <li>List item 4</li>
+                            </ul>
+
+                            <ol>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3
+                                    <ol>
+                                        <li>Nested list item 1</li>
+                                        <li>Nested list item 2</li>
+                                        <li>Nested list item 3</li>
+                                    </ol>
+                                </li>
+                                <li>List item 4</li>
+                            </ol>                            
+                        </div>   
+                        
+                        <div>
+                            <h1><i class="icon-star"></i> Tables</h1>
+
+                            <table class="table table-condensed table-bordered">
+                              <thead>
+                                <tr>
+                                  <th>#</th>
+                                  <th>First Name</th>
+                                  <th>Last Name</th>
+                                  <th>Username</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Mark</td>
+                                  <td>Otto</td>
+                                  <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>Jacob</td>
+                                  <td>Thornton</td>
+                                  <td>@fat</td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>Larry</td>
+                                  <td>the Bird</td>
+                                  <td>@twitter</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>                     
                     </div>
                 </div>
             </div>
