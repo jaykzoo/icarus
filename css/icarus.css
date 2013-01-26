@@ -4,6 +4,10 @@ body{
     font-size: 11px;
 }
 
+[class*="span"] {    
+    margin-left: 17px; /* changed to account for padding to content-* */   
+}
+
 .container {
     border: 1px solid #e0e1dd;    
     background-color: #e0e1dd;
