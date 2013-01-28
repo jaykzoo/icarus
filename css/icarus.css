@@ -37,13 +37,20 @@ h1 {
 
 /* -- Buttons -- */
 .btn-primary {
-    background-color: #874283;
-    background-image: -moz-linear-gradient(center top , #7A3B75, #53284f);    
-}
-
-.btn-primary:hover, .btn-primary:active, .btn-primary.active,
-.btn-primary.disabled, .btn-primary[disabled] {
-    background-color: #53284f;
+  background-color: #53284F !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#683364", endColorstr="#53284F");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#683364), to(#53284F));
+  background-image: -moz-linear-gradient(top, #683364, #53284F);
+  background-image: -ms-linear-gradient(top, #683364, #53284F);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #683364), color-stop(100%, #53284F));
+  background-image: -webkit-linear-gradient(top, #683364, #53284F);
+  background-image: -o-linear-gradient(top, #683364, #53284F);
+  background-image: linear-gradient(#683364, #53284F);
+  border-color: #53284F #53284F #53284F;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 #53284F;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* -- Custom widgets --  */
